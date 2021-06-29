@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset= "UTF-8">
+<meta name="viewport" 
+content="width= device-width, initial-scale=1">
+<title> Caminar </title>
+<style> 
+* {
+box-sizing: border-box;
+}
+body {
+background-image: url(bg.jpg);
+width:100%;
+}
+#header1 {
+text-align: center;
+color: white;
+margin-top: 5px;
+}
+#caminar{
+font-family: verdana;
+font-size: 60px;
+margin-bottom: -13px;
+}
+#p1 {
+font-size: 15px;
+margin-top: 0;
+padding-top: 0;
+font-family: "lucida sans unicode";
+color:rgba(255,250,245,0.7);
+}
+.polaroid { 
+background-color: rgba(41,40,41,1);
+box-shadow: 5px 10px 10px; 
+margin:40px;
+}
+.polaroid img {
+width: 100%;
+height: auto;
+}
+.description{
+background-color: white;
+overflow:hidden;
+margin-top:-10px;
+}
+#fringilla {
+padding: 45px;
+text-align: center;
+font-family: verdana;
+font-size: 25px;
+color: rgba (0,0,0,0.5);
+}
+hr.hr1 {
+width: 10%;
+margin-top: -50px;
+border:1px solid rgba(217,217,217,0.8);
+}
+#p2 {
+color: rgba(217,217,217,0.8);
+text-align: center;
+font-family:arial;
+word-spacing:2px;
+letter-spacing: 2px;
+font-size: 13px;
+}
+.para {
+background-color: rgba(217,217,217,0.3);
+font-family: verdana;
+color: gray;
+padding: 35px;
+font-size: 15px;
+margin-top: 25px;
+}
+
+
+.problem {
+width: 90%;
+background-color: black;
+overflow: hidden;
+margin: 50px;
+}
+.problem img {
+max-width: 50%;
+height: auto;
+float: left;
+transition-duration: 0.3s;
+cursor: pointer;
+}
+#myimg1:hover {
+opacity:0.7;
+}
+#myimg2:hover {
+opacity:0.7;
+}
+#myimg3:hover {
+opacity:0.7;
+}
+#myimg4:hover {
+opacity:0.7;
+}
+.modal, .modal2, .modal3, .modal4 {
+position: fixed;
+top: 20%;
+left: 15%;
+display: none;
+z-index: 1;
+width: 100%;
+overflow:auto;
+}
+.content, .content2, .content3, .content4 {
+display: block;
+margin: auto;
+width: 80%;
+animation-duration: 0.6s;
+animation-name: zoom;
+border: 10px solid white;
+}
+@keyframes zoom{
+from{transform:scale(0)}
+to {transform: scale(1)}
+}
+.close, .close2, .close3, .close4 {
+position: absolute;
+top:15px;
+right: 47%;
+font-weight: bold;
+font-size: 40px;
+color:white;
+cursor: pointer;
+}
+.close:hover {
+color: gray;
+}
+.close2:hover {
+color: gray;
+}
+.close3:hover {
+color: gray;
+}
+.close4:hover {
+color: gray;
+}
+.header3 { 
+text-align: center;
+}
+.vestibulum{
+color: white;
+padding: 35px;
+text-align: center;
+font-family: verdana;
+font-size: 25px;
+}
+.p3 {
+text-align: center;
+font-family:arial;
+word-spacing:2px;
+letter-spacing: 2px;
+font-size: 13px;
+color: rgba(217,217,217,0.3);
+padding: 20px;
+}
+hr.hr2{
+width: 10%;
+margin-top: -50px;
+border:1px solid rgba(217,217,217,0.3);
+}
+.column {
+float: left;
+width: 50%;
+}
+.row1::after{
+content:"";
+display: table;
+clear: both;
+}
+
+#column-text{
+background-color: rgba(240,240,240,1.0);
+padding: 20px;
+float: left;
+width: 50%;
+height:525px;
+}
+#column-text h4{
+text-align: left;
+font-family: arial;
+padding: 20px;
+}
+#column-text p {
+font-family: verdana;
+padding: 20px;
+}
+#columntext {
+float: left;
+width: 50%;
+height:350px;
+padding: 20px;
+background-color:rgba(41,40,41,1);
+}
+#columntext h4 {
+text-align: right;
+font-family: arial;
+color: white;
+padding: 20px;
+}
+#columntext p {
+font-family: verdana;
+padding: 20px;
+text-align: right;
+color: rgba(217,217,217,0.3);
+}
+.footer {
+font-size: 15px;
+padding: 30px;
+text-align: center;
+color: white;
+}
+.footer a{
+color: white;
+}
+</style>
+</head>
+<body>
+<header id="header1"> 
+<h1 id="caminar"> Caminar </h1>
+<p id="p1"> by JHAYISREAL </p>
+</header>
+<div class="polaroid">
+<img src="pic02.jpg" width="1070px"
+height="473px">
+<div class="description">
+<header id="header2">
+<h3 id="fringilla"> Fringilla Fermentun Tellus </h3>
+<hr class="hr1">
+<p id="p2"> VEHICULA UENA SED JUSTO BIBENDUM </p>
+</header>
+<br>
+<div class="para">
+<p>Curabitur eget semper ante. Morbi elefeind ultricles et abladit diam vehicua vel. Vestibulum porttitor nisi quiz viverra hendreint.
+Suspendisse vel volutpat nibh vel elementum lacus. Maecenas commado pulvinar dui, at cursus metus imperdiet vel. Vestibulum et effictur urna.
+Duis nulia, interdium sed fells sit amet facillis auctor nunc. Cras loctus urna at risus feuglat scelerisque nec sed diam.</p>
+<br>
+<p>Nunc fringilla metus odio, at rutrum augue tristique vel. Nulia ac tellus a necque ulliamcorper porta a vitae ipsum. Morbi est sapien,
+hendreit quis mi in, aliquam bibendum arci. Vestibulum imperdiet nibh vitae maximus posuere. Aenean sit amet nibh feugiat, condimentum
+tellus eu, malesuada nunc. Mouris ac pulvinar turpis, sit amet pharetra est. Ut bibendum just condimentum, vehicular venenantis libero.
+Etiam vehicula urna sed justo bibendumac lacina nunc pulvinar, integer nec velit arci, Vestibulum pellensteque varius dapibus. Morbi
+ullam corper augue est sed luctus orci fermentum dictum. Nunc tincidunt, nisi consequat convallis viverra metus nisi ultricles dui, vitae dapibus lagulia urna sit amet nibh, Duis ut vernantis enim.
+</p> 
+</div>
+</div>
+<div class="problems">
+<div class="problem">
+<header class="header3">
+<h3 class="vestibulum"> Vestibulum Convallis </h3>
+<hr class="hr2">
+<p class="p3"> VEHICULA UENA SED JUSTO BIBENDUM </p>
+</header>
+<img id="myimg1" src="pic03.jpg" width="600px"
+height="300px">
+<img id="myimg2" src="pic01.jpg" width="600px"
+height="300px">
+<img id="myimg3"src="pic04.jpg" width="600px"
+height="300px">
+<img id="myimg4" src="pic05.jpg" width="600px"
+height="300px">
+<div class="modal" id="mymodal">
+<img id="modalcontent" class="content">
+<span class="close"> &times; </span>
+</div>
+<div id="mymodal2" class="modal2">
+<img id="modalcontent2" class="content2">
+<span class="close2"> &times;</span>
+</div>
+<div id="mymodal3" class="modal3">
+<img id="modalcontent3" class="content3">
+<span class="close3"> &times; </span>
+</div>
+<div id="mymodal4" class="modal4">
+<img id="modalcontent4" class="content4">
+<span class="close4"> &times; </span>
+</div>
+</div>
+</div>
+<div class="row1">
+<div class="column">
+<img src="pic06.jpg" width="100%">
+</div>
+<div id="column-text">
+<h4> Viverra Hendrerit</h4>
+<p>Curabitur eget semper ante. Morbi eleifend ultricles est, a blandit diam vehicula ve. Vestibulum porttitor nisi quis viverra
+hendreit. Suspendisse vel voulpat nibh, vel elementum lacus. Macenas commado pulvinar dui, at cursus metus imperdiet vel. </p>
+</div>
+</div>
+<div class="row1">
+<div id="columntext">
+<h4> Curibitur Eget  </h4>
+<p> Curibatur eget semperv ante. Morbi ultricles est, a blandit diam vehiculavel. Vestibulum porttitor nisi quis viverra hendreit. Suspendisse velvoluput nibh,
+vel elementum lacus. Macenas commado pulvinar dui, at cursus metus imperdiet vel.</p>
+</div>
+<div class="column">
+<img id="rightimg" src="pic07.jpg" height="525px" width="700px"> 
+</div>
+</div>
+<div class="row1">
+<div class="column">
+<img id="leftimg2" src="pic08.jpg" height="525px" width="700px">
+</div>
+<div id="column-text">
+<h4> Morbi Eleifeind </h4>
+<p> Curibatur eget semperv ante. Morbi ultricles est, a blandit diam vehiculavel. Vestibulum porttitor nisi quis viverra hendreit. Suspendisse velvoluput nibh,
+vel elementum lacus. Macenas commado pulvinar dui, at cursus metus imperdiet vel.</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<footer>
+<span> &#169;</span>Jhayisreal. All rights reserved. images <a href="#"> Unsplash </a> Design and <a href="#"> TEMPLATED</a>
+</footer>
+</div>
+<script>
+var modal= document.getElementById("mymodal");
+var img= document.getElementById("myimg1");
+var modalImg= document.getElementById("modalcontent");
+img.onclick= function(){
+modal.style.display="block";
+modalImg.src= this.src;
+}
+var close= document.getElementsByClassName("close")[0];
+close.onclick= function(){
+modal.style.display="none";
+}
+var modal2= document.getElementById("mymodal2");
+var img2= document.getElementById("myimg2");
+var modalImg2= document.getElementById("modalcontent2");
+img2.onclick= function(){
+modal2.style.display="block";
+modalImg2.src= this.src;
+}
+var close2= document.getElementsByClassName("close2")[0];
+close2.onclick= function(){
+modal2.style.display="none";
+}
+var modal3= document.getElementById("mymodal3");
+var img3= document.getElementById("myimg3");
+var modalImg3= document.getElementById("modalcontent3");
+img3.onclick= function(){
+modal3.style.display="block";
+modalImg3.src= this.src;
+}
+var close3= document.getElementsByClassName("close3")[0];
+close3.onclick= function(){
+modal3.style.display="none";
+}
+var modal4= document.getElementById("mymodal4");
+var img4= document.getElementById("myimg4");
+var modalImg4= document.getElementById("modalcontent4");
+img4.onclick= function(){
+modal4.style.display="block";
+modalImg4.src= this.src;
+}
+var close4= document.getElementsByClassName("close4")[0];
+close4.onclick= function(){
+modal4.style.display="none";
+}
+</script>
+</body>
+</html>
